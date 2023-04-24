@@ -1,5 +1,3 @@
-import container from 'tailwindcss/plugins/container';
-
 import colors from './colors';
 import screens from './screens';
 import fonts from './fonts';
@@ -144,13 +142,7 @@ export default {
   |
   */
 
-  plugins: [
-    container({
-      // center: true,
-      // padding: '1rem',
-    })
-  ],
-
+  plugins: [],
   /*
   |-----------------------------------------------------------------------------
   | Advanced Options         https://tailwindcss.com/docs/configuration#options
